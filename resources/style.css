@@ -1,0 +1,97 @@
+body {
+    width: 900px;
+    background-color: #ed7855;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+footer {
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+
+nav {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+nav a {
+    font-size: 32px;
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: 'EB+Garamond', garamond;
+    
+}
+.head{
+	border-radius: 3%;
+	border: 7px solid #F7F7F7;
+}
+a:hover {
+	color: #5b0e28;	
+}
+#copyright{
+	color: #ceff75L;
+}
+.like{
+	color: navy;
+}
+#homepage {
+	column-count: 2;
+	column-gap: 24px;
+}
+.profile{
+	width: 250px;
+	border-radius: 100%;
+	margin-right: 18px;
+	/*margin-left: 80px; */
+	border: 7px solid #F7F7F7;
+ 	float: left; /*float pulls things off the page ad wraps text*/
+	
+}
+
+p {
+    line-height: 160%;
+    color: #f7f7f7;
+    /* clear: both; unwraps things floated to left AND to right */
+    font-family: "Roboto Slab" serif;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'EB+Garamond', garamond;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: 'EB+Garamond', garamond;
+}
+
+ul,
+ol {
+    font-size: 16px;
+    color: #f7f7f7;
+}
+
+img {
+    border-radius: 0.25em;
+    width: 100%;
+}
+
+a {
+    color: #FFD78C;
+    text-decoration: none;
+}
